@@ -43,7 +43,7 @@ const { sub_title, title, contact_id, contact_title } = contact_content;
 
 const ContactAreaHomeOne = () => {
   return (
-    <section className="contact-area theme-bg-3 pt-120 pb-120 overflow-hidden">
+    <section className="contact-area theme-bg-img pt-120 pb-120 overflow-hidden">
       <div className="container">
         <div className="row">
           <div className="col-lg-5">

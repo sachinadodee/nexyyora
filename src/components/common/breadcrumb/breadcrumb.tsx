@@ -58,11 +58,11 @@ const Breadcrumb = () => {
                         <div className="col-xxl-12">
                             <div className="breadcrumb__content p-relative z-index-1">
                                 <h3 className="breadcrumb__title">{top_title}</h3>
-                                <div className="breadcrumb__list">
+                                {/* <div className="breadcrumb__list">
                                     <span><Link href="/">Home</Link></span>
                                     <span className="dvdr"></span>
                                     <span>{title}</span>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ const Breadcrumb = () => {
                         </div>
                         <div className="col-lg-6">
                             <div className="about-inner-content">
-                                <span>{sub_title}</span>
+                                {/* <span>{sub_title}</span> */}
                                 <h4 className="about-inner-title">{inner_title}</h4>
                                 <p>{inner_info}</p>
                             </div>

@@ -13,7 +13,7 @@ const setting = {
 	fade: false,
 	autoplay: false,
 	centerMode: true,
-	centerPadding: '509px',
+	centerPadding: '250px',
 	slidesToShow: 1,
 	arrows: false,
 	responsive: [
@@ -21,56 +21,56 @@ const setting = {
 			breakpoint: 1800,
 			settings: {
 				slidesToShow: 1,
-				centerPadding: '400px',
+				// centerPadding: '400px',
 			}
 		},
 		{
 			breakpoint: 1600,
 			settings: {
 				slidesToShow: 1,
-				centerPadding: '200px',
+				// centerPadding: '200px',
 			}
 		},
 		{
 			breakpoint: 1400,
 			settings: {
 				slidesToShow: 1,
-				centerPadding: '200px',
+				// centerPadding: '200px',
 			}
 		},
 		{
 			breakpoint: 1300,
 			settings: {
 				slidesToShow: 1,
-				centerPadding: '150px',
+				// centerPadding: '150px',
 			}
 		},
 		{
 			breakpoint: 1200,
 			settings: {
 				slidesToShow: 1,
-				centerPadding: '120px',
+				// centerPadding: '120px',
 			}
 		},
 		{
 			breakpoint: 992,
 			settings: {
 				slidesToShow: 1,
-				centerPadding: '50px',
+				// centerPadding: '50px',
 			}
 		},
 		{
 			breakpoint: 768,
 			settings: {
 				slidesToShow: 1,
-				centerPadding: '10px',
+				// centerPadding: '10px',
 			}
 		},
 		{
 			breakpoint: 480,
 			settings: {
 				slidesToShow: 1,
-				centerPadding: '5px',
+				// centerPadding: '5px',
 			}
 		}
 	],

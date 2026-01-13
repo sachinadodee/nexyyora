@@ -1,4 +1,5 @@
 @use '../utils' as *;
+$img-banner-pink: '/assets/img/banner/pink.png';
 
 /*----------------------------------------*/
 /*  2.6 Background
@@ -32,4 +33,9 @@
 
 .theme-bg-4 {
 	background: var(--tp-theme-dark-blue);
+}
+
+
+.theme-bg-img {
+	background: url(#{$img-banner-pink}) no-repeat center / cover;
 }
