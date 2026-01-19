@@ -18,23 +18,23 @@ import menu_banner from "@/assets/img/header-icon/header-banner/header-banner-1.
 import type { JSX } from "react";
 
 // type MenuData =  
-interface menu_data_type  {
+interface menu_data_type {
   id: number;
   title: string;
   link: string;
   has_dropdown?: boolean;
-  has_megamenu?: boolean;  
-  img_dropdown?: boolean;  
-  service_dropdown?: boolean;  
-  blog_dropdown?: boolean;  
+  has_megamenu?: boolean;
+  img_dropdown?: boolean;
+  service_dropdown?: boolean;
+  blog_dropdown?: boolean;
   sub_menus?: {
-      link?: string | any;
-      title?: string;
-      demo_img?: StaticImageData | any ; 
-      layout?: {
-        link: string;
-        title: string;
-      }[];
+    link?: string | any;
+    title?: string;
+    demo_img?: StaticImageData | any;
+    layout?: {
+      link: string;
+      title: string;
+    }[];
   }[];
   banner_sub_title?: string;
   banner_title?: JSX.Element;
@@ -53,9 +53,9 @@ const menu_data: menu_data_type[] = [
   },
   {
     id: 2,
-    title: "About",    
+    title: "About",
     link: "/about",
-    has_dropdown: false, 
+    has_dropdown: false,
   },
   {
     id: 3,
@@ -65,19 +65,19 @@ const menu_data: menu_data_type[] = [
     service_dropdown: true,
     inner_title: "Services Overview",
     sub_menus: [
-      { link: "/SEO",           title: "SEO",         demo_img: service_demo_1,  },
-      { link: "/Meta & Google Ads",           title: "Meta & Google Ads",         demo_img: service_demo_1,  },
-      { link: "/Graphic Designing",                title: "Graphic Designing",       demo_img: service_demo_2,  },
-      { link: "/Professional Video Editing",          title: "Professional Video Editing",   demo_img: service_demo_3,  },
-      { link: "/Content Creation",          title: "Content Creation",   demo_img: service_demo_4,  },
-      { link: "/Web Development",       title: "Web Devlopment",            demo_img: service_demo_5,  },
-      { link: "/Content Writing",       title: "Content Writing",            demo_img: service_demo_5,  },
-      { link: "/Social Media Managament",       title: "Social Media Managament",            demo_img: service_demo_5,  },
-      { link: "/E-commerce",       title: "E-commerce",            demo_img: service_demo_5,  },
-      { link: "/Competitor Research",       title: "Competitor Research",            demo_img: service_demo_5,  },
+      { link: "/SEO", title: "SEO", demo_img: service_demo_1, },
+      { link: "/Meta & Google Ads", title: "Meta & Google Ads", demo_img: service_demo_1, },
+      { link: "/Graphic Designing", title: "Graphic Designing", demo_img: service_demo_2, },
+      { link: "/Professional Video Editing", title: "Professional Video Editing", demo_img: service_demo_3, },
+      { link: "/Content Creation", title: "Content Creation", demo_img: service_demo_4, },
+      { link: "/Web Development", title: "Web Devlopment", demo_img: service_demo_5, },
+      { link: "/Content Writing", title: "Content Writing", demo_img: service_demo_5, },
+      { link: "/Social Media Managament", title: "Social Media Managament", demo_img: service_demo_5, },
+      { link: "/E-commerce", title: "E-commerce", demo_img: service_demo_5, },
+      { link: "/Competitor Research", title: "Competitor Research", demo_img: service_demo_5, },
     ],
     banner_sub_title: "SEO Agency",
-    banner_title: <>The #1 SEO <br/> agency for fast growing <br /> companies.</>,
+    banner_title: <>The #1 SEO <br /> agency for fast growing <br /> companies.</>,
     icon: <RightArrowMenu />,
     m_banner: menu_banner,
   },
@@ -94,19 +94,19 @@ const menu_data: menu_data_type[] = [
     has_dropdown: true,
     blog_dropdown: true,
     sub_menus: [
-      { link: "/blog",                    title: "Blog" },
-      { link: "/blog-grid",               title: "Blog Grid" },
-      { link: "/blog-masonry",            title: "Blog Masonry" },
-      { link: "/blog-list",               title: "Blog List" },
-      { link: "/blog-details",            title: "Blog Details" },
-      { link: "/blog-details-2",          title: "Blog Details Full Width" },
+      { link: "/blog", title: "Blog" },
+      { link: "/blog-grid", title: "Blog Grid" },
+      { link: "/blog-masonry", title: "Blog Masonry" },
+      { link: "/blog-list", title: "Blog List" },
+      { link: "/blog-details", title: "Blog Details" },
+      { link: "/blog-details-2", title: "Blog Details Full Width" },
     ],
   },
   {
     id: 6,
     title: "Contact",
     link: "/contact",
-    has_dropdown: false,     
-  },  
+    has_dropdown: false,
+  },
 ];
 export default menu_data;
