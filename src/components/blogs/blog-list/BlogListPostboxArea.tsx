@@ -1,6 +1,6 @@
 'use client'
 import Link from "next/link";
-import BlogSidebar from "@/componentsinner-pages/blog-sidebar";
+// import BlogSidebar from "@/componentsinner-pages/blog-sidebar";
 import ClockIcon from "@/svg/inner-pages-icons/ClockIcon";
 import UserIcon from "@/svg/inner-pages-icons/UserIcon";
 import blog_list from "@/data/blog-list-data";
@@ -138,7 +138,7 @@ const BlogListPostboxArea = () => {
 
                             </div>
                         </div>
-                        <BlogSidebar />
+                        {/* <BlogSidebar /> */}
                     </div>
                 </div>
             </section>

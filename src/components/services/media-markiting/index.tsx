@@ -3,7 +3,7 @@ import banner_service from "@/assets/img/services/social-media/services-social-m
 
 
 import BreadcrumbThree from "@/components/common/breadcrumb/breadcrumb-3";
-import SocialAreaHomeTwo from "@/components/homes/home-2/SocialAreaHomeTwo";
+// import SocialAreaHomeTwo from "@/components/homes/home-2/SocialAreaHomeTwo";
 import FooterFive from "@/layout/footers/FooterFive";
 import HeaderSix from "@/layout/headers/HeaderSix";
 import MediaFeaturesArea from "./MediaFeaturesArea";
@@ -25,7 +25,7 @@ const MediaMarkiting = () => {
                 <MediaOptimizeArea />
                 <MediaVideoArea />
                 <MediaServices />
-                <SocialAreaHomeTwo style={true} />
+                {/* <SocialAreaHomeTwo style={true} /> */}
             </main>
             <FooterFive style={true} />
         </>

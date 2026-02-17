@@ -8,7 +8,7 @@ import box_thumb from "@/assets/img/blog/post-box-thumb-1.jpg";
 import PostComments from './PostComments'; 
 import SocialLinks from '@/components/common/social-links';
 import CommentForm from '@/components/forms/CommentForm';
-import BlogSidebar from '@/components/inner-pages/blog-sidebar';
+// import BlogSidebar from '@/components/inner-pages/blog-sidebar';
 
 
 const BlogDetailsPostboxAreaContent = {
@@ -181,7 +181,7 @@ const BlogDetailsPostboxArea = () => {
                                 </div>
                             </div>
                         </div>
-                        <BlogSidebar />
+                        {/* <BlogSidebar /> */}
                     </div>
                 </div>
             </section>

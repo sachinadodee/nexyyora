@@ -20,7 +20,7 @@ type breadcrumb_content_type = {
 
 const breadcrumb_content: breadcrumb_content_type = {
     top_title: "About Nexyora",
-    // title: "About Us",
+    title: "About Us",
     sub_title: "About Nexyora",
     inner_title: "Your Digital Growth Partner",
     inner_info: <>Nexyora is a performance-focused digital agency helping brands grow <br/>through strategic content, High-ROI ads, and automated systems.</>,

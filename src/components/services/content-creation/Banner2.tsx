@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Testimonial from "./Testimonial";
 
 interface content_type {
   count: number;

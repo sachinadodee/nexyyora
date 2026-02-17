@@ -8,7 +8,7 @@ import FooterFive from "@/layout/footers/FooterFive";
 import SocialServicesImportant from "./SocialServicesImportant";
 import BreadcrumbThree from "@/components/common/breadcrumb/breadcrumb-3";
 import QualityServicesArea from "../seo-audit/QualityServicesArea";
-import ServicesAreaHomeFour from "@/components/homes/home-4/ServicesAreaHomeFour";
+// import ServicesAreaHomeFour from "@/components/homes/home-4/ServicesAreaHomeFour";
 
 const SocialServices = () => {
     return (
@@ -17,7 +17,7 @@ const SocialServices = () => {
              <main>
                 <BreadcrumbThree sub_title="Honest Link Building Services" 
                 title={<>Link building propels <br /> you to the top of search.</>} img={banner_service} style={true} /> 
-                <ServicesAreaHomeFour style={true} />
+                {/* <ServicesAreaHomeFour style={true} /> */}
                 <QualityServicesArea />
                 <SocialServicesImportant />
                 <SocialAboutArea />

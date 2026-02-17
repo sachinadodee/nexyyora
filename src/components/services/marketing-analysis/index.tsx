@@ -2,8 +2,8 @@
 import banner_service from "@/assets/img/services/social-media/services-social-media-bg-4.jpg";
 
 import BreadcrumbThree from "@/components/common/breadcrumb/breadcrumb-3";
-import TestimonialHomeTwo from "@/components/homes/home-2/TestimonialHomeTwo";
-import ToolestAeaHomeFive from "@/components/homes/home-5/ToolestAeaHomeFive";
+// import TestimonialHomeTwo from "@/components/homes/home-2/TestimonialHomeTwo";
+// import ToolestAeaHomeFive from "@/components/homes/home-5/ToolestAeaHomeFive";
 import FooterFive from "@/layout/footers/FooterFive";
 import HeaderSix from "@/layout/headers/HeaderSix";
 import KeywordArea from "../keyword-search/KeywordArea";
@@ -21,10 +21,10 @@ const MarketingAnalysis = () => {
                     title={<>Why is SEO lounge SEO analysis so much better?</>} img={banner_service} style={true} />
                 <KeywordFeatureArea style={true} />
                 <KeywordArea />
-                <ToolestAeaHomeFive />
+                {/* <ToolestAeaHomeFive /> */}
                 <SocialServicesImportant style={true} />
                 <MarketingFeatureArea />
-                <TestimonialHomeTwo style={true} />
+                {/* <TestimonialHomeTwo style={true} /> */}
             </main>
             <FooterFive style={true} />
         </>

@@ -149,7 +149,7 @@ type copy_right_text_type =  {
 }
 
 const copy_right_text: copy_right_text_type = {
-  // copy_right: <> ©{new Date().getFullYear()} Copyrights by company. All Rights Reserved. Designed by 
+  copy_right: <> ©{new Date().getFullYear()} Copyrights by company. All Rights Reserved. Designed by 
   //             </>,
 }
 
