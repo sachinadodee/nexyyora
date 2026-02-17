@@ -2,10 +2,11 @@
 import { useEffect, useState } from "react";
 import BGShape from "@/svg/bg-shape"; 
 import Image from "next/image";
-
 import analysis_shape_1 from "@/assets/img/shape/analysis-chart-1.png"; 
 import analysis_shape_2 from "@/assets/img/shape/analysis-chart-2.png"; 
 import Count from "@/components/common/count";
+import Graph from "./Graph";
+
 
 const analysis_content = {
     sub_title: "With Nexyora",
@@ -30,7 +31,7 @@ const analysis_content = {
             id: 3,
             cls: "d-flex justify-content-end mr-25 mb-40", 
             count_number: 2,
-  type: "percent",
+            type: "percent",
             text: "Social Media Engagement"
         },
          {
@@ -164,6 +165,7 @@ const AnalysisAreaHomeOne = () => {
                     </div>
                     <div className="tpanalysis-shape d-none d-lg-block">
                         <div className="tpanalysis-shape-one">
+                            {/* <Graph withNexyora={isMonthlyActive} /> */}
                             <Image src={analysis_shape_1} alt="theme-pure" />
                         </div>
                         <div className="tpanalysis-shape-two">

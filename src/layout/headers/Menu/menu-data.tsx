@@ -69,7 +69,7 @@ const menu_data: menu_data_type[] = [
       { link: "/Meta & Google Ads", title: "Meta & Google Ads", demo_img: service_demo_1, },
       { link: "/Graphic Designing", title: "Graphic Designing", demo_img: service_demo_2, },
       { link: "/Professional Video Editing", title: "Professional Video Editing", demo_img: service_demo_3, },
-      { link: "/Content Creation", title: "Content Creation", demo_img: service_demo_4, },
+      { link: "/content-creation", title: "Content Creation", demo_img: service_demo_4, },
       { link: "/Web Development", title: "Web Devlopment", demo_img: service_demo_5, },
       { link: "/Content Writing", title: "Content Writing", demo_img: service_demo_5, },
       { link: "/Social Media Managament", title: "Social Media Managament", demo_img: service_demo_5, },

@@ -7,6 +7,7 @@ export const metadata = {
 };
 
 const index = () => {
+    console.log("Contact Page");    
     return (
         <Wrapper>
             <Contact />

@@ -1,10 +1,10 @@
 import { StaticImageData } from "next/image";
-import service_icon_1 from "@/assets/img/services/services-1-icon-1.png";
-import service_icon_2 from "@/assets/img/services/services-1-icon-2.png";
+import service_icon_1 from "@/assets/img/services/User Engagement.png";
+import service_icon_2 from "@/assets/img/services/Online Goal.png";
 import service_icon_3 from "@/assets/img/services/services-1-icon-3.png";
-import service_icon_4 from "@/assets/img/services/services-1-icon-4.png";
-import service_icon_5 from "@/assets/img/services/services-1-icon-5.png";
-import service_icon_6 from "@/assets/img/services/services-1-icon-6.png";
+import service_icon_4 from "@/assets/img/services/Tv Ads.png";
+import service_icon_5 from "@/assets/img/services/Mobile Marketing.png";
+import service_icon_6 from "@/assets/img/services/Web Content.png";
 
 interface our_service_data_type {
   id: number;

@@ -11,7 +11,7 @@ const SubscribeForm = () => {
             <EmailTwo />
           </span>
         </div>
-        <button className="footer-widget-newsletter-btn">subscribe.</button>
+        <button className="footer-widget-newsletter-btn">subscribe</button>
       </form>
     </>
   );
