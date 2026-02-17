@@ -43,7 +43,7 @@ function BehindTheDesign() {
         <div className="img__area">
           <div className="img__area-wrapper">
             {images.map((image) => (
-              <div className="img__item">
+              <div className="img__item" key={image.id}>
                 <Link href={image.link} key={image.id}>
                   <Image src={image.src} alt={image.alt} width={400} height={300} />
                 </Link>
